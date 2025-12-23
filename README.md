@@ -22,12 +22,12 @@ poetry install
 
 Para ativar o ambiente virtual, realize o passo a passo abaixo:
 
-1. Execute o comando `poetry env info`.
+1. Com o projeto aberto no VSCode, abra o terminal e execute o comando `poetry env info`.
 2. Em `Virtualenv`, copie o valor da chave `PATH`.
-3. Abra o projeto no VSCode e, em seguida, digite `ctrl + shift + P`.
-4. Digite `Select interpreter` e clique na opção que aparecer.
+3. Digite `ctrl + shift + P` para abrir a paleta de comandos do VSCode.
+4. Procure pela opção `Select interpreter` (para facilitar a busca basta digitar o nome da opção) e clique nela.
 5. Ao selecionar a opção `Select interpreter`, clique na opção `Enter interpreter path...` e cole o valor de `PATH` (etapa 2). Em seguida, tecle `Enter`.
-6. Abra o terminal do VSCode.
+6. Abra um novo terminal no VSCode.
 
 Para subir o banco de dados, caso não tenha o `docker-compose` instalado, faça a instalação e logo em seguida, execute:
 
